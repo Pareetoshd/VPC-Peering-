@@ -44,7 +44,7 @@ it simple with just a single subnet! / For the NAT gateways ($) option, select n
 endpoints option, select None. / You can leave the DNS options checked. / Select Create VPC.
 
 ![VPC](https://github.com/user-attachments/assets/ed8235ee-0bdb-4591-a912-2ef4bb431693)
-[Fig 1: Successfully created of VPC]
+                          [Fig 1: Successfully created of VPC]
 
 Step 2: Set Up VPC Peering Connection
 Now that we have two VPCs ready to go, let’s bridge them together with a peering connection. / In the
@@ -73,7 +73,7 @@ changes.
 
 ![routetable](https://github.com/user-attachments/assets/e87957e2-ecd9-4578-882a-7cfb45ab1ec3)
 ![routetable2](https://github.com/user-attachments/assets/dc2158d6-513d-4c34-8a15-19c2b0aaf859)
-[Fig 2: Successfully created of Instances]
+                          [Fig 2: Successfully created of Routetable]
 
 Step 4 : Launching EC2 Instances
 In this step, we are going to launch an EC2 instance in each VPC, so we can use them to test our VPC
@@ -89,7 +89,7 @@ already created a security group for your VPC — let’s use that! / Choose Sel
 Select the default security group for your VPC. / Select Launch instance.
 
 ![nexaworkinstance](https://github.com/user-attachments/assets/b7df1d48-9a18-4b24-9ab4-9870c662f742)
-[Fig 3: Successfully created of Instances]
+                              [Fig 3: Successfully created of Instances]
 
 Connect to Instance 1
 To test our VPC peering connection, we’ll need to get one of our EC2 instances to try talk to the other. In
@@ -134,7 +134,7 @@ in the peered VPCs can communicate over the private IP addresses. It confirms th
 security groups, and network ACLs are correctly configured for connectivity.
 
 ![VPC1 Ping to 2VPC](https://github.com/user-attachments/assets/5e565fbd-669b-4bf7-a864-38d4523a8268)
-[Fig 4: Successfully created VPC Peering connection between `VPC-1` and `VPC-2`]
+         [Fig 4: Successfully created VPC Peering connection between `VPC-1` and `VPC-2`]
 
 ![VPC2 Ping to 1VPC](https://github.com/user-attachments/assets/21f8d635-165a-4876-bd1a-cd9d9eca6631)
 [Fig 5: Successfully created VPC Peering connection between `VPC-2` and `VPC-1`]
