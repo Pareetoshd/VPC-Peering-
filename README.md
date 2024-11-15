@@ -31,8 +31,7 @@ Under Name tag auto-generation, enter NexatWork-1 / The VPC’s IPv4 CIDR block 
 to (10.0.0.0/16) change that to (10.1.0.0/16) For IPv6 CIDR block, we’ll leave in the default option of No
 IPv6 CIDR block. / For Tenancy, we’ll keep the selection of Default. / For Number of Availability Zones
 (AZs), we’ll use just 1 Availability Zone. / Make sure the Number of public subnets chosen is 1. /
-For Number of private subnets, we’ll keep thing simple today and go with 0 private subnets. / We
-updated our subnets’ CIDR blocks in previous projects, but we don’t need defined subnets for this one.
+For Number of private subnets, we’ll keep thing simple today and go with 0 private subnets./ but we don’t need defined subnets for this one.
 Let’s skip the Customize subnets CIDR for this project. / Next, for the NAT gateways ($) option, make
 sure you’ve selected None. As the dollar sign suggests, NAT gateways cost money! / Next, for the VPC
 endpoints option, select None. / You can leave the DNS options checked / Select Create VPC.
